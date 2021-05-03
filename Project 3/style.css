@@ -1,0 +1,116 @@
+/*Global Styles
+------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img {
+  width: 300px;
+}
+body {
+  color: darkslategrey;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: lightskyblue;
+  font-weight: bold;
+}
+a:hover {
+  color: lightgoldenrodyellow;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0;
+  padding-left: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  margin: 0;
+}
+h1 {
+  font-size: 85px;
+}
+/*Profile
+------------------------*/
+header {
+  background-color: darkblue;
+  color: antiquewhite;
+}
+
+/*Projects
+------------------------*/
+.project-head {
+  background-color: lightgoldenrodyellow;
+  text-transform: uppercase;
+}
+.project1-writeup {
+  text-transform: lowercase;
+  overflow: hidden;
+  border-bottom: 1px dashed;
+}
+.project2-writeup {
+  text-transform: capitalize;
+  overflow: hidden;
+  border-bottom: dashed 1px;
+  padding: 20px 0;
+}
+.project-btn a {
+  background-color: navy;
+  color: wheat;
+  padding: 7px;
+  border-radius: 10px;
+}
+.project-btn a:hover {
+  background-color: darksalmon;
+  color: black;
+}
+.project-head a:hover {
+  color: darkmagenta;
+}
+.project-head a {
+  color: darkseagreen;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.project-btn img {
+  float: left;
+  margin-right: 20px;
+}
+/*Work Experiance
+------------------------*/
+.work-exp {
+  background-color: lightblue;
+}
+
+/*Education 
+------------------------*/
+
+/*Contact info
+------------------------*/
+footer {
+  background-color: darkblue;
+  color: antiquewhite;
+  text-align: center;
+}
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
